@@ -1,78 +1,87 @@
 
- 
-*{
-    list-style:none;
-    text-decoration:none;
-   
+
+* {
+  list-style: none;
+  text-decoration: none;
 }
 
-.container{
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:100%;
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
-ul{
-    width:30%;
-    padding:0px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ul {
+  width: 30%;
+  padding: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
-li{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    width:100%;
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-hr{
-    background-color:gray;
+
+hr {
+  background-color: gray;
 }
-.enter{
-    width:100%;
-    border:0px solid transparent;
-    color:lightgray;
-    height:35px;
-    margin-top:8px;
-   
+
+.enter {
+  width: 100%;
+  border: 0 solid transparent;
+  color: lightgray;
+  height: 35px;
+  margin-top: 8px;
 }
-.check{
-    margin-right:25px;
-    margin-left:5px;
+
+.check {
+  margin-right: 25px;
+  margin-left: 5px;
 }
-h3{
-    color:rgb(73, 73, 73)
+
+h3 {
+  color: rgb(73, 73, 73);
 }
-h5{
-    color:rgb(73, 73, 73);
-    font-size: 14px;
-    font-weight:normal;    
+
+h5 {
+  color: rgb(73, 73, 73);
+  font-size: 14px;
+  font-weight: normal;
 }
-button{
-    width: 100%;
-    border:0px solid gray;
-    height:50px;
-    background-color: Transparent;
-    color: gray;
-    font-size:15px;
-    cursor:pointer;
+
+button {
+  width: 100%;
+  border: 0 solid gray;
+  height: 50px;
+  background-color: transparent;
+  color: gray;
+  font-size: 15px;
+  cursor: pointer;
 }
-.flexer{
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
-    background-color: white;
-    width: 100%;
+
+.flexer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
 }
-.del{
-    width: 10px;
-    height: 10px;
+
+.del {
+  width: 10px;
+  height: 10px;
 }
-.flexerere{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    border-width: 0.5px 0px;
-    border-style: solid;
-    border-color:lightgray;
+
+.flexerere {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-width: 0.5px 0;
+  border-style: solid;
+  border-color: lightgray;
 }
