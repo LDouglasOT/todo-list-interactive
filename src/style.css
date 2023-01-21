@@ -1,86 +1,94 @@
 
 * {
-  list-style: none;
-  text-decoration: none;
-}
-
-.container {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-ul {
-  width: 30%;
-  padding: 0;
-  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
-
-hr {
-  background-color: gray;
-}
-
-.enter {
-  width: 100%;
-  border: 0 solid transparent;
-  color: lightgray;
-  height: 35px;
-  margin-top: 8px;
-}
-
-.check {
-  margin-right: 25px;
-  margin-left: 5px;
-}
-
-h3 {
-  color: rgb(73, 73, 73);
-}
-
-h5 {
-  color: rgb(73, 73, 73);
-  font-size: 14px;
-  font-weight: normal;
-}
-
-button {
-  width: 100%;
-  border: 0 solid gray;
-  height: 50px;
-  background-color: transparent;
-  color: gray;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.flexer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  width: 100%;
-}
-
-.del {
-  width: 10px;
-  height: 10px;
-}
-
-.flexerere {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  border-width: 0.5px 0;
-  border-style: solid;
-  border-color: lightgray;
-}
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 30%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  }
+  
+  ul {
+    width: 100%;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-width: 0.5px 0;
+    border-style: solid;
+    border-color: lightgray;
+  }
+  
+  hr {
+    background-color: gray;
+  }
+  
+  .enter {
+    width: 100%;
+    border: 0 solid transparent;
+    color: lightgray;
+    height: 35px;
+    margin-top: 8px;
+    border-top: 0.8px;
+    margin-bottom: 8px;
+    border-style: solid;
+  }
+  
+  .check {
+    margin-right: 25px;
+    margin-left: 5px;
+  }
+  
+  h3 {
+    color: rgb(73, 73, 73);
+  }
+  
+  h5 {
+    color: rgb(73, 73, 73);
+    font-size: 14px;
+    font-weight: normal;
+  }
+  
+  button {
+    width: 100%;
+    border: 0 solid gray;
+    height: 50px;
+    background-color: transparent;
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .flexer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    align-items: center;
+  }
+  
+  .delete h6 {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .htmls {
+    width: 100%;
+  }
